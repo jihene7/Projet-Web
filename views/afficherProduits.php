@@ -18,13 +18,12 @@ $listeProduits=$produits1C->afficherProduits();
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Afficher Produits</title>
-       
-              <meta name="description" content="">
+       <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
         ============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo/jik.png">
     
-     
     <!-- Google Fonts
         ============================================ -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
@@ -85,12 +84,12 @@ $listeProduits=$produits1C->afficherProduits();
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header"> 
-               
+             
                 <strong><img src="img/logo/jihsn.png" alt="" /></strong>
             </div>
             <div class="nalika-profile">
                 <div class="profile-dtl">
-     <a href="index.html"><img class="main-logo" src="img/logo/log.jpg" /></a>
+     <a href="index.html"><img class="main-logo" src="img/logo/log.jpg"  /></a>
                     
                     <h2>Gaming <span class="min-dtn"> Legends</span></h2>
                 </div>
@@ -118,7 +117,7 @@ $listeProduits=$produits1C->afficherProduits();
                         </li>
                          
                  <li>
-                            <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-diamond icon-wrap"></i> <span class="mini-click-non">Gérer les Produits</span></a>
+                           <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-diamond icon-wrap"></i> <span class="mini-click-non">Gérer les Produits</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li><a title="ajouter produits" href="ajoutProduits.php"><span class="mini-sub-pro">Ajouter un produit</span></a></li>
                                 <li><a title="traitement des produits" href="afficherProduits.php"> <span class="mini-sub-pro">traitement Produits</span></a></li>
@@ -134,8 +133,7 @@ $listeProduits=$produits1C->afficherProduits();
                         <!-- </li> -->
                         
                            
-                       
-                        <li>
+                      <li>
                             <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class=" icon nalika-pie-chart icon-wrap"></i> <span class="mini-click-non">Gérer catégories</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li><a title="Ajouter Catégorie" href="ajoutCategorie.html"><span class="mini-sub-pro">Ajouter Catégorie</span></a></li>
@@ -150,12 +148,6 @@ $listeProduits=$produits1C->afficherProduits();
                             </ul>
                         </li>
                         
-                         
-                       
-                        
-                        
-                        
-                
                         
                     </ul>
                      
@@ -196,78 +188,133 @@ $listeProduits=$produits1C->afficherProduits();
                                         <div class="header-top-menu tabl-d-n hd-search-rp">
                                             <div class="breadcome-heading">
                                                 <form role="search" class="">
-                                                  
+                                                   
+                                                    
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                         <div class="header-right-info">
                                             <ul class="nav navbar-nav mai-top-nav header-right-menu">
-                                                <li class="nav-item dropdown">
-                                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"></a>
+                                                
+                                                   
                                                     <div role="menu" class="author-message-top dropdown-menu animated zoomIn">
-                                                        <div >
-                                                            
-                                                        </div>
-
-                                                        <div >
-                                                            <a href="#"></a>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="nav-item"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"></i><span </span></a>
-                                                    <div role="menu" class="notification-author dropdown-menu animated zoomIn">
                                                         <div >
                                                             <h1></h1>
                                                         </div>
-                                                        <ul class="notification-menu">
+                                                        <ul >
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="message-img">
+                                                                        <img src="img/contact/1.jpg" alt="">
+                                                                    </div>
+                                                                    <div >
+                                                                        <span ></span>
+                                                                        <h2></h2>
+                                                                        <p></p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
                                                             <li>
                                                                 <a href="#">
                                                                     <div >
-                                                                   
+                                                                        <img src="img/contact/4.jpg" alt="">
                                                                     </div>
-                                                                    <div class="notification-content">
-                                                                        <span class="notification-date"></span>
-                                                                        
+                                                                    <div >
+                                                                        <span >16 Sept</span>
+                                                                        <h2>Sulaiman din</h2>
+                                                                        <p>Please done this project as soon possible.</p>
                                                                     </div>
                                                                 </a>
-                                                            </li> 
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="message-img">
+                                                                        <img src="img/contact/3.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="message-content">
+                                                                        <span class="message-date">16 Sept</span>
+                                                                        <h2>Victor Jara</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div class="message-img">
+                                                                        <img src="img/contact/2.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="message-content">
+                                                                        <span class="message-date">16 Sept</span>
+                                                                        <h2>Victor Jara</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                        <div >
+                                                            <a href="#">View All Messages</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item"></a>
+                                                    <div role="menu" class="notification-author dropdown-menu animated zoomIn">
+                                                        <div >
+                                                            <h1>Notifications</h1>
+                                                        </div>
+                                                        <ul >
+                                                            <li>
+                                                                <a href="#">
+                                                                    <div >
+                                                                        
+                                                                    </div>
+                                                                    <div >
+                                                                        <span class="notification-date">16 Sept</span>
+                                                                        <h2>Advanda Cro</h2>
+                                                                        <p>Please done this project as soon possible.</p>
+                                                                    </div>
+                                                                </a>
+                                                            </li>
                                                             <li>
                                                                 <a href="#">
                                                                     <div >
                                                                         <i class="icon nalika-cloud" aria-hidden="true"></i>
                                                                     </div>
                                                                     <div class="notification-content">
-                                                                        <span class="notification-date"></span>
-                                                                        
+                                                                        <span class="notification-date">16 Sept</span>
+                                                                        <h2>Sulaiman din</h2>
+                                                                        <p>Please done this project as soon possible.</p>
                                                                     </div>
                                                                 </a>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
-                                                                    <div class="notification-icon">
-                                                                        <i class="icon nalika-folder" aria-hidden="true"></i>
+                                                                    <div >
+                                                                        <i  aria-hidden="true"></i>
                                                                     </div>
                                                                     <div class="notification-content">
-                                                                        <span class="notification-date"></span>
-                                                                       
+                                                                        <span class="notification-date">16 Sept</span>
+                                                                        <h2>Victor Jara</h2>
+                                                                        <p>Please done this project as soon possible.</p>
                                                                     </div>
                                                                 </a>
                                                             </li>
                                                             <li>
                                                                 <a href="#">
-                                                                    <div class="notification-icon">
-                                                                        <i class="icon nalika-bar-chart" aria-hidden="true"></i>
+                                                                    <div >
+                                                                        
                                                                     </div>
                                                                     <div class="notification-content">
-                                                                        <span class="notification-date"></span>
-                                                                        
+                                                                        <span class="notification-date">16 Sept</span>
+                                                                        <h2>Victor Jara</h2>
+                                                                        <p>Please done this project as soon possible.</p>
                                                                     </div>
                                                                 </a>
                                                             </li>
                                                         </ul>
-                                                        <div class="notification-view">
-                                                            <a href="#"></a>
+                                                        <div >
+                                                            <a href="#">View All Notification</a>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -285,15 +332,15 @@ $listeProduits=$produits1C->afficherProduits();
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li class="nav-item nav-setting-open"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"></i></a>
+                                                <li class="nav-item nav-setting-open"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i ></i></a>
 
                                                     <div role="menu" class="admintab-wrap menu-setting-wrap menu-setting-wrap-bg dropdown-menu animated zoomIn">
                                                         <ul class="nav nav-tabs custon-set-tab">
-                                                            <li class="active"><a data-toggle="tab" href="#Notes"></a>
+                                                            <li class="active"><a data-toggle="tab" href="#Notes">News</a>
                                                             </li>
-                                                            <li><a data-toggle="tab" href="#Projects"></a>
+                                                            <li><a data-toggle="tab" href="#Projects">Activity</a>
                                                             </li>
-                                                            <li><a data-toggle="tab" href="#Settings"></a>
+                                                            <li><a data-toggle="tab" href="#Settings">Settings</a>
                                                             </li>
                                                         </ul>
 
@@ -301,8 +348,8 @@ $listeProduits=$produits1C->afficherProduits();
                                                             <div id="Notes" class="tab-pane fade in active">
                                                                 <div class="notes-area-wrap">
                                                                     <div class="note-heading-indicate">
-                                                                        <h2><i class="icon nalika-chat"></i> </h2>
-                                                                       
+                                                                        <h2><i class="icon nalika-chat"></i> Latest News</h2>
+                                                                        <p>You have 10 New News.</p>
                                                                     </div>
                                                                     <div class="notes-list-area notes-menu-scrollbar">
                                                                         <ul class="notes-menu-list">
@@ -313,7 +360,8 @@ $listeProduits=$produits1C->afficherProduits();
                                                                                             <img src="img/contact/4.jpg" alt="" />
                                                                                         </div>
                                                                                         <div class="notes-content">
-                                                                                           
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
                                                                                         </div>
                                                                                     </div>
                                                                                 </a>
@@ -325,7 +373,8 @@ $listeProduits=$produits1C->afficherProduits();
                                                                                             <img src="img/contact/1.jpg" alt="" />
                                                                                         </div>
                                                                                         <div class="notes-content">
-                                                                                           
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
                                                                                         </div>
                                                                                     </div>
                                                                                 </a>
@@ -337,7 +386,8 @@ $listeProduits=$produits1C->afficherProduits();
                                                                                             <img src="img/contact/2.jpg" alt="" />
                                                                                         </div>
                                                                                         <div class="notes-content">
-                                                                                           
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
                                                                                         </div>
                                                                                     </div>
                                                                                 </a>
@@ -349,7 +399,8 @@ $listeProduits=$produits1C->afficherProduits();
                                                                                             <img src="img/contact/3.jpg" alt="" />
                                                                                         </div>
                                                                                         <div class="notes-content">
-                                                                                           
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
                                                                                         </div>
                                                                                     </div>
                                                                                 </a>
@@ -361,7 +412,8 @@ $listeProduits=$produits1C->afficherProduits();
                                                                                             <img src="img/contact/4.jpg" alt="" />
                                                                                         </div>
                                                                                         <div class="notes-content">
-                                                                                           
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
                                                                                         </div>
                                                                                     </div>
                                                                                 </a>
@@ -373,7 +425,8 @@ $listeProduits=$produits1C->afficherProduits();
                                                                                             <img src="img/contact/1.jpg" alt="" />
                                                                                         </div>
                                                                                         <div class="notes-content">
-                                                                                           
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
                                                                                         </div>
                                                                                     </div>
                                                                                 </a>
@@ -817,8 +870,7 @@ $listeProduits=$produits1C->afficherProduits();
                         </div>
                     </div>
                 </div>
-            </div>
-            <br></br>
+            </div>  <br></br>
 <br></br>
 
                         <h4 align="center"  class="fe"> Traitement des produits</h4> 
