@@ -928,7 +928,7 @@ $listeTypes=$type_evenementC->affichertype_evenements();
                        <br></br>               
  
  
-                        <h4 align="center"  class="feu"> Ajouter produits</h4> 
+                        <h4 align="center"  class="feu"> Ajouter event</h4> 
                           <br></br>
                                 <style type="text/css">
 .feu { font: bold 2.5em Arial Black, sans-serif;
